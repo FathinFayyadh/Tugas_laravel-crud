@@ -101,12 +101,12 @@ class ProductController extends Controller
         $product->deskripsi = $request->deskripsi;
         $product->save();
 
-        return redirect()->route('admin.create')->with('success', 'Produk berhasil diperbarui!');
+        return redirect()->route('admin.create');
     }
     public function formDelete($id)
     {
         $product = Product::findOrFail($id);
         $product->delete();
-        return redirect()->route('admin.create')->with('success', 'Produk berhasil dihapus!');
+        return redirect()->route('admin.create');
     }
 }

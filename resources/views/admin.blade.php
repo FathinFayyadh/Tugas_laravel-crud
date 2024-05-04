@@ -14,10 +14,10 @@
             <div class="col-12 my-5">
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="col-3  ">
-                        <h3 class="fw-bold text-center">List produk</h3>
+                        <h3 class="fw-bold ">List produk</h3>
                     </div>
 
-                    <div class="col-4 offset-2 ">
+                    <div class="col-4 text-end ">
                         <a href="{{ route('form.create') }}" class="btn btn-dark">Tambah Produk</a>
                         <a href="{{ route('product.create') }}" class="btn btn-dark">Kembali Ke product</a>
                     </div>
@@ -27,13 +27,13 @@
                 <table class="table table-bordered table-striped">
             <thead>
                 <tr class="text-center">
-                    <td>No</td>
-                    <td>Nama</td>
-                    <td>Stock</td>
-                    <td>Berat</td>
-                    <td>Harga</td>
-                    <td>Kodisi</td>
-                    <td >Action </td>
+                    <th>No</th>
+                    <th>Nama</td>
+                    <th>Stock</th>
+                    <th>Berat</th>
+                    <th>Harga</th>
+                    <th>Kodisi</td>
+                    <th>Action </th>
                 </tr>
             </thead>
             @php

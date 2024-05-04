@@ -32,7 +32,6 @@
                     @if(isset($product))
                     @method('PUT')
                 @endif
-
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label"> Gambar</label>
                         <input type="text" class="form-control" name="gambar" id="gambar"
